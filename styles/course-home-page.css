@@ -1,6 +1,228 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@media (max-width: 739px) {
 
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .title {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 0.5rem;
+        color: azure;
+        height: 21vh;
+        width: auto;
+        background-color: #164e70;
+    }
+
+    .title h1 {
+        align-content: center;
+        margin: 0; /* Ensure no margin on h1 */
+    }
+
+    .brand-picture {
+        width: 150px;
+    }
+
+    .navigation {
+        display: none; /* Hide the navigation by default on mobile */
+        flex-direction: column; /* Stack nav items vertically */
+        width: 100%;
+        background-color: black;
+    }
+
+    .nav-button {
+        display: block; /* Show the button on mobile */
+        background-color: #164e70;
+        color: azure;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        width: 100%; /* Full width for the button */
+        text-align: center;
+    }
+
+    .navigation.active {
+        display: flex; /* Show navigation when active */
+    }
+
+    .navigation a {
+        display: block; /* Stack links vertically */
+        padding: 10px; /* Add padding to links */
+        color: azure; /* Initial color */
+        transition: color 1.5s ease; /* Smooth transition for color change */
+        text-align: center;
+    }
+
+    .navigation a:hover {
+        color: gold; /* Color on hover */
+    }
+
+    .container {
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .box-one {
+        width: 100%;
+        height: 40vh;
+        background-color: #f0f0f0;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin: 2%;
+    }
+
+    .box-one h3 {
+        align-content: center;
+        background-color: #164e70;
+        color: azure;
+        height: 5vh;
+        text-align: center;
+    }
+
+    .box-one li {
+        margin-left: 5%;
+    }
+
+    .box-two {
+        width: 100%;
+        height: 45vh;
+        background-color: #e0e0e0;
+        box-shadow: 0 4px 8px rgba(46, 45, 45, 0.1);
+        margin: 2%;
+    }
+
+    .box-two h3 {
+        align-content: center;
+        background-color: #164e70;
+        color: azure;
+        height: 5vh;
+        text-align: center;
+    }
+
+    .box-two img {
+        align-content: center;
+        align-content: center;
+        width: 150px;
+        margin-left: 35%;
+        margin-top: 10%;
+    }
+
+    .box-two p {
+        text-align: center;
+    }
+
+    .full-width-box {
+        width: 95%;
+        height: 45vh;
+        background-color: #d0d0d0;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin: 0 5%;
+    }
+
+    .full-width-box h3 {
+        align-content: center;
+        background-color: #164e70;
+        color: azure;
+        height: 5vh;
+        text-align: center;
+    }
+
+    .cont-black-box {
+        display: flex;
+        justify-content:center;
+        align-content: center;
+    }
+
+    .black-box {
+        align-content: center;
+        margin-right: 1%;
+        margin-top: 1%;
+        display: inline-block;
+        background-color: black;
+        color: azure;
+        text-align: center;
+        height: 4vh;
+        width: 30%;
+    }
+
+    .divider {
+        width: 100%;
+        height: 1px;
+        background-color: #ccc;
+        margin: 20px 0;
+    }
+
+    .course-boxes-one {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-content: center;
+    }
+
+    .course-boxes-two {
+        display: flex;
+        flex-direction: column;
+        flex-grow:auto;
+        justify-content:center;
+        align-content: center;
+    }
+
+    .white-box {
+        align-content: center;
+        margin-right: 1%;
+        margin-top: 1%;
+        display: inline-block;
+        background-color: #e6edef;
+        color: black;
+        text-align: center;
+        height: 4vh;
+        width: 95%;
+    }
+
+    .brown-box {
+        align-content: center;
+        margin-right: 1%;
+        margin-top: 1%;
+        display: inline-block;
+        background-color: #64301d;
+        color: azure;
+        text-align: center;
+        height: 4vh;
+        width: 95%;
+    }
+
+    .footer-container {
+        display: flex;
+        justify-content:center;
+        align-content: center;
+        background-color: #164e70;
+        color: azure;
+        flex-direction: column;
+        text-align: center;
+        height: 15vh;
+    }
+
+    .foot-one {
+        height: 4vh;
+        align-content: center;
+    }
+
+    .foot-two {
+        height: 4vh;
+        align-content: center;
+    }
+
+    .flag {
+        width: 30px;
+        flex-direction: row;
+    }
+
+    .update p {
+        margin-right: -15%;
+    }
+
+}

@@ -22,7 +22,7 @@
     }
 
     .brand-picture {
-        width: 10%;
+        width: 150px;
     }
 
     .navigation {
@@ -37,6 +37,15 @@
         width: 100%; /* Ensure it takes the full width of the screen */
         box-sizing: border-box; /* Include padding in height calculation */
     }
+
+    .nav-bar {
+        display: flex;
+    }
+
+    .nav-button {
+        visibility: hidden;
+    }
+
 
     .navigation nav {
         margin: 0; /* Ensure no margin on nav */
@@ -54,7 +63,7 @@
     }
 
     .container {
-        margin-top: 2%;
+        margin-top: 0;
         display: flex;
         width: 90%;
     }
@@ -97,7 +106,7 @@
 
     .box-two img {
         align-content: center;
-        width: 30%;
+        width: 150px;
         margin-left: 35%;
         margin-top: 10%;
     }
@@ -207,7 +216,7 @@
     }
 
     .flag {
-        width: 2%;
+        width: 30px;
         flex-direction: row;
     }
 

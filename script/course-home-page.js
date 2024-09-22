@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('date-and-time').textContent = formattedLastModified;
 });
 
-document.getElementById('menu').addEventListener('click', function() {
-    const nav = document.querySelector('nav');
-    nav.classList.toggle('show'); // Toggle the show class
-});
+function toggleNav() {
+    const nav = document.querySelector('.navigation');
+    nav.classList.toggle('active'); // Toggle the 'active' class to show/hide the nav
+}
