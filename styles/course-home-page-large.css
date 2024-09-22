@@ -1,0 +1,154 @@
+@media (min-width: 740px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .title {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 0.5rem;
+        color: azure;
+        height: auto;
+        width: auto;
+        background-color: #164e70;
+    }
+
+    .title h1 {
+        align-content: center;
+        margin: 0; /* Ensure no margin on h1 */
+    }
+
+    .brand-picture {
+        width: 10%;
+    }
+
+    .navigation {
+        display: flex; /* Use flexbox for layout */
+        justify-content: space-around; /* Space out the options evenly */
+        align-items: center; /* Center items vertically */
+        background-color: black;
+        height: 10vh;
+        margin: 0;
+        margin-top: -2.6vh; /* Remove any default margin */
+        padding: 0 20px; /* Add horizontal padding for spacing */
+        width: 100%; /* Ensure it takes the full width of the screen */
+        box-sizing: border-box; /* Include padding in height calculation */
+    }
+
+    .navigation nav {
+        margin: 0; /* Ensure no margin on nav */
+        padding: 0; /* Ensure no padding on nav */
+    }
+
+    .navigation a {
+        text-decoration: none;
+        color: azure; /* Initial color */
+        transition: color 1.5s ease; /* Smooth transition for color change */
+    }
+
+    .navigation a:hover {
+        color: gold; /* Color on hover */
+    }
+
+    .container {
+        margin-top: 5%;
+        display: flex;
+        width: 90%;
+    }
+
+    .box-one {
+        width: 60%;
+        height: 30vh;
+        background-color: #f0f0f0;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin: 0 0 0 5%;
+    }
+
+    .box-one h3 {
+        align-content: center;
+        background-color: #164e70;
+        color: azure;
+        height: 5vh;
+        text-align: center;
+    }
+
+    .box-one li {
+        margin-left: 5%;
+    }
+
+    .box-two {
+        width: 30%;
+        height: 30vh;
+        background-color: #e0e0e0;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin: 0 0 5% 5%;
+    }
+
+    .box-two h3 {
+        align-content: center;
+        background-color: #164e70;
+        color: azure;
+        height: 5vh;
+        text-align: center;
+    }
+
+    .box-two img {
+        align-content: center;
+        width: 30%;
+        margin-left: 35%;
+        margin-top: 10%;
+    }
+
+    .box-two p {
+        text-align: center;
+    }
+
+    .full-width-box {
+        width: 85%;
+        height: 30vh;
+        background-color: #d0d0d0;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin: 0 5%;
+    }
+
+    .full-width-box h3 {
+        align-content: center;
+        background-color: #164e70;
+        color: azure;
+        height: 5vh;
+        text-align: center;
+    }
+
+    .cont-black-box {
+        display: flex;
+        justify-content:center;
+        align-content: center;
+    }
+
+    .black-box {
+        align-content: center;
+        margin-right: 1%;
+        margin-top: 1%;
+        display: inline-block;
+        background-color: black;
+        color: azure;
+        text-align: center;
+        height: 4vh;
+        width: 10%;
+    }
+
+    .divider {
+        width: 100%;
+        height: 1px;
+        background-color: #ccc;
+        margin: 20px 0;
+    }
+
+
+
+
+    
+}

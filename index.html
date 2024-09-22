@@ -3,9 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title> W01 Assignment: Course Home Page </title>
+    <meta name="description" content="A presentation page">
+    <meta name="author" content="Francisco J. Zuñiga S.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+    <link rel="stylesheet" href="styles/course-home-page-large.css">
+    <link rel="stylesheet" href="styles/course-home-page.css">
+    <script defer src="./script/course-home-page.js"></script>
 </head>
 <body>
-    <h1>WDD 231 - Frontend Developer I</h1>
+    <header>
+        <div class="title"><img src="./images/Personal-Brand.svg" alt="student picture" class="brand-picture"><h1>Francisco J. Zuñiga S.</h1></div>
+        <button id="menu" ></button>
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="#">Chamber</a>
+            <a href="https://github.com/JavSancen">GitHub Profile</a>
+            <a href="www.linkedin.com/in/francisco-j-zuñiga-s-b15481202">LinkedIn</a>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="box-one box">
+                <h3>Course Work</h3>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </div>
+            <div class="box-two box">
+                <h3>Tequisquiapan, Querétaro</h3>
+                <img src="./images/tx-small.webp" alt="">
+                <p>Tequisquiapan center</p>
+            </div>
+        </div>
+        <div class="full-width-box">
+            <h3> Web and Computer Programming Certificate</h3>
+            <div class="cont-black-box">
+                <div class="black-box">AII</div>
+                <div class="black-box">CSE</div>
+                <div class="black-box">WDD</div>
+            </div>
+
+            <hr class="divider">
+
+            <div>
+                <div>CSE 110</div>
+                <div>WDD 130</div>
+                <div>CSE 111</div>
+                <div>CSE 210</div>
+                <div>WDD 131</div>
+                <div>WDD 231</div>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <p> &#169 <span id="currentyear"></span> 🌵Francisco J. Zuñiga S.- México 🌵 <img class="flag" src="./images/Flag_of_Mexico.svg.webp" alt="México flag"> </p>
+            <p class="update">Last Update: <span id="date-and-time"></span></p>
+        </div>
+    </footer>
 </body>
 </html>
