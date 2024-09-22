@@ -11,7 +11,7 @@
         text-align: center;
         font-size: 0.5rem;
         color: azure;
-        height: auto;
+        height: 21vh;
         width: auto;
         background-color: #164e70;
     }
@@ -54,14 +54,14 @@
     }
 
     .container {
-        margin-top: 5%;
+        margin-top: 2%;
         display: flex;
         width: 90%;
     }
 
     .box-one {
         width: 60%;
-        height: 30vh;
+        height: 40vh;
         background-color: #f0f0f0;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         margin: 0 0 0 5%;
@@ -81,10 +81,10 @@
 
     .box-two {
         width: 30%;
-        height: 30vh;
+        height: 40vh;
         background-color: #e0e0e0;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        margin: 0 0 5% 5%;
+        box-shadow: 0 4px 8px rgba(46, 45, 45, 0.1);
+        margin: 0 0 2% 5%;
     }
 
     .box-two h3 {
@@ -147,8 +147,44 @@
         margin: 20px 0;
     }
 
+    .course-boxes-one {
+        display: flex;
+        justify-content:center;
+        align-content: center;
+    }
+
+    .course-boxes-two {
+        display: flex;
+        flex-grow:auto;
+        justify-content:center;
+        align-content: center;
+    }
+
+    .white-box {
+
+        align-content: center;
+        margin-right: 1%;
+        margin-top: 1%;
+        display: inline-block;
+        background-color: #e6edef;
+        color: black;
+        text-align: center;
+        height: 4vh;
+        width: 10%;
+    }
+
+    .brown-box {
+        align-content: center;
+        margin-right: 1%;
+        margin-top: 1%;
+        display: inline-block;
+        background-color: #64301d;
+        color: azure;
+        text-align: center;
+        height: 4vh;
+        width: 10%;
+    }
 
 
 
-    
 }
