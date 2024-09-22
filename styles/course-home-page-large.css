@@ -185,6 +185,34 @@
         width: 10%;
     }
 
+    .footer-container {
+        display: flex;
+        justify-content:center;
+        align-content: center;
+        background-color: #164e70;
+        color: azure;
+        flex-direction: column;
+        text-align: center;
+        height: 15vh;
+    }
 
+    .foot-one {
+        height: 4vh;
+        align-content: center;
+    }
+
+    .foot-two {
+        height: 4vh;
+        align-content: center;
+    }
+
+    .flag {
+        width: 2%;
+        flex-direction: row;
+    }
+
+    .update p {
+        margin-right: -15%;
+    }
 
 }
