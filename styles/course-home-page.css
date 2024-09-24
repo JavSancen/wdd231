@@ -7,6 +7,11 @@
         font-family: "Roboto", sans-serif;
     }
 
+    main {
+        height: 180vh;
+    }
+
+
     .title {
         display: flex;
         justify-content: center;
