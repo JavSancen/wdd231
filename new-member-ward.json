@@ -1,0 +1,23 @@
+{
+    "family_name": "Gómez Martinez",
+    "move_in_date": "2024-09-23",
+    "number_of_people": 3,
+    "visited_by_bishopric": false,
+    "family_members": [
+    {
+        "name": "Alejandro Gómez",
+        "gender": "Male",
+        "birthdate": "1985-03-15"
+    },
+    {
+        "name": "Laura Martínez",
+        "gender": "Female",
+        "birthdate": "1987-07-87"
+    },
+    {
+        "name": "Valentina Gómez Martínez",
+        "gender": "Female",
+        "birthdate": "2015-01-10"
+    }
+    ]
+}
